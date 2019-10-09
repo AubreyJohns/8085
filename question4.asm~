@@ -1,0 +1,5 @@
+MVI A, 93H;
+MVI C, 0B7H;
+ADD C
+HLT
+

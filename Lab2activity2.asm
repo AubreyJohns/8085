@@ -1,0 +1,11 @@
+LDA 3200H
+MOV C, A
+SUB A
+LXI H, 3201H
+LOOPME: ADD M
+        INX H
+        DCR C
+        JNZ LOOPME
+STA 3300H
+
+hlt

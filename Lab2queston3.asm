@@ -1,0 +1,30 @@
+LXI H, 6000H ; Initialize memory pointer
+MVI C, 00H ; Initialize number counter
+MVI B, 00H;negative
+MVI E, 00H;zero
+MVI D, 00H;positive
+
+BEGIN: MOV A, M
+	CPI 00H
+	JZ ZERONUM
+	ANI 80H
+	JNZ NEGNUM
+	INR D
+	JMP LAST
+
+ZERONUM: INR E
+	 JMP LAST
+
+NEGNUM: INR B
+LAST:	INX H
+	INR C
+	MOV A, C
+	CPI 0AH
+	JNZ BEGIN
+	LXI H, 600AH
+	MOV M, B
+	INX H
+	MOV M, E
+	INX H
+	MOV M, D
+	HLT

@@ -1,0 +1,4 @@
+MVI A, 01H
+mvi B, 02h
+add B
+ hlt

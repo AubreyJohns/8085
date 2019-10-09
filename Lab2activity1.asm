@@ -1,0 +1,6 @@
+
+LDA 4400H
+CMA
+STA 4300H
+
+hlt

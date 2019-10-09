@@ -1,0 +1,3 @@
+mvi A,01h
+adi 04h
+hlt

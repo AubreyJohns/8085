@@ -1,0 +1,3 @@
+mvi a, 31h
+mov b, a
+hlt
