@@ -1,0 +1,4 @@
+MVI B, 0FFH ; load 255
+ITERATE: DCR B ; reduce B by 1
+	 JNZ ITERATE ; repeat
+hlt
