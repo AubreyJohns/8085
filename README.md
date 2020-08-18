@@ -3,4 +3,4 @@ This repo is an implementation of Assembly Language Programming in 8085 Micropro
 
 Friendly intoduction to Programming in Assembly Language.
 
-Contains code to perform various manipulations in assembly Language.
+Different programming aspects are covered e.g Recursion, Loops etc 
