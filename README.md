@@ -1,6 +1,5 @@
-# 8085
-This repo is an implementation of Assembly Language Programming in 8085 Microprocessor.
+# 8085 
 
-Friendly intoduction to Programming in Assembly Language.
+Programming an 8085 Microprocessor.
 
-Contains code to perform various manipulations in assembly Language.
+
